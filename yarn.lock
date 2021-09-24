@@ -1152,10 +1152,10 @@
   dependencies:
     cross-spawn "^6.0.5"
 
-"@vuepress/plugin-medium-zoom@^1.5.2":
-  version "1.5.2"
-  resolved "https://registry.npm.taobao.org/@vuepress/plugin-medium-zoom/download/@vuepress/plugin-medium-zoom-1.5.2.tgz#d7445ed8e8ba0cec9fb9c4c91a880b4e7fd66d91"
-  integrity sha1-10Re2Oi6DOyfucTJGogLTn/WbZE=
+"@vuepress/plugin-medium-zoom@^1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-1.8.2.tgz#0243dd27edf0c710f9a41a234d253d76ab51e625"
+  integrity sha512-Mljso/8E6IbNmIKmwKeC6FDfnhKY3fsOUSs5kEGzz3RQwd54eshqHAMRVwW4LZkYZHhwQXF8+qk7YqoMZB7jjg==
   dependencies:
     medium-zoom "^1.0.4"
 
@@ -7948,7 +7948,7 @@ vuepress@^1.5.2:
     opencollective-postinstall "^2.0.2"
     update-notifier "^4.0.0"
 
-watchpack@1.6.1, watchpack@^1.6.1:
+watchpack@^1.6.1:
   version "1.6.1"
   resolved "https://registry.npm.taobao.org/watchpack/download/watchpack-1.6.1.tgz#280da0a8718592174010c078c7585a74cd8cd0e2"
   integrity sha1-KA2gqHGFkhdAEMB4x1hadM2M0OI=
