@@ -936,18 +936,26 @@
   resolved "https://registry.npm.taobao.org/@types/q/download/@types/q-1.5.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fq%2Fdownload%2F%40types%2Fq-1.5.4.tgz#15925414e0ad2cd765bfef58842f7e26a7accb24"
   integrity sha1-FZJUFOCtLNdlv+9YhC9+JqesyyQ=
 
-"@vssue/api-github-v4@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.npm.taobao.org/@vssue/api-github-v4/download/@vssue/api-github-v4-1.4.0.tgz#30defd2220ff50e5ed4c50159e42eba52b004748"
-  integrity sha1-MN79IiD/UOXtTFAVnkLrpSsAR0g=
+"@vssue/api-github-v4@^1.4.7":
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/@vssue/api-github-v4/-/api-github-v4-1.4.7.tgz#873554ec8e8351e5eeb8ca76246c2914b20e1bc4"
+  integrity sha512-Tk4ZYyX03RwoVy29RW1+ZdqESzX/gLsN9010Eaq0WT/2pNV+8quyT9TMypIZp6rZCGNYTSdxB8ET4IiF7SLKXQ==
   dependencies:
-    "@vssue/utils" "^1.4.0"
-    axios "^0.18.1"
+    "@vssue/utils" "^1.4.7"
+    axios "^0.21.1"
 
 "@vssue/utils@^1.4.0":
   version "1.4.0"
   resolved "https://registry.npm.taobao.org/@vssue/utils/download/@vssue/utils-1.4.0.tgz#3cc2fd8492a3409e343289981e2209b6ca2f8313"
   integrity sha1-PML9hJKjQJ40MomYHiIJtsovgxM=
+  dependencies:
+    date-fns "^1.29.0"
+    qs "^6.6.0"
+
+"@vssue/utils@^1.4.7":
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/@vssue/utils/-/utils-1.4.7.tgz#58a9ec2687d26080aa04cab17e8f87049f1342c3"
+  integrity sha512-e94karP4szmSNT2L4bgIT+VGToBSY3bdlgmGcomcD2qCXTWDK4krSOYm8ES+BhHTcmCvzQYU/xenHR4tzrythA==
   dependencies:
     date-fns "^1.29.0"
     qs "^6.6.0"
@@ -1683,20 +1691,19 @@ aws4@^1.8.0:
   resolved "https://registry.npm.taobao.org/aws4/download/aws4-1.10.0.tgz#a17b3a8ea811060e74d47d306122400ad4497ae2"
   integrity sha1-oXs6jqgRBg501H0wYSJACtRJeuI=
 
-axios@^0.18.1:
-  version "0.18.1"
-  resolved "https://registry.npm.taobao.org/axios/download/axios-0.18.1.tgz#ff3f0de2e7b5d180e757ad98000f1081b87bcea3"
-  integrity sha1-/z8N4ue10YDnV62YAA8Qgbh7zqM=
+axios@^0.20.0:
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.20.0.tgz#057ba30f04884694993a8cd07fa394cff11c50bd"
+  integrity sha512-ANA4rr2BDcmmAQLOKft2fufrtuvlqR+cXNNinUmvfeSNCOF98PZL+7M/v1zIdGo7OLjEA9J2gXJL+j4zGsl0bA==
   dependencies:
-    follow-redirects "1.5.10"
-    is-buffer "^2.0.2"
+    follow-redirects "^1.10.0"
 
-axios@^0.19.2:
-  version "0.19.2"
-  resolved "https://registry.npm.taobao.org/axios/download/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
-  integrity sha1-PqNsXYgY0NX4qKl6bTa4bNwAyyc=
+axios@^0.21.1:
+  version "0.21.4"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
+  integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
   dependencies:
-    follow-redirects "1.5.10"
+    follow-redirects "^1.14.0"
 
 babel-extract-comments@^1.0.0:
   version "1.0.0"
@@ -2860,13 +2867,6 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@=3.1.0, debug@~3.1.0:
-  version "3.1.0"
-  resolved "https://registry.npm.taobao.org/debug/download/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
-  integrity sha1-W7WgZyYotkFJVmuhaBnmFRjGcmE=
-  dependencies:
-    ms "2.0.0"
-
 debug@^3.1.1, debug@^3.2.5, debug@^3.2.6:
   version "3.2.6"
   resolved "https://registry.npm.taobao.org/debug/download/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
@@ -2880,6 +2880,13 @@ debug@^4.1.0, debug@^4.1.1:
   integrity sha1-O3ImAlUQnGtYnO4FDx1RYTlmR5E=
   dependencies:
     ms "^2.1.1"
+
+debug@~3.1.0:
+  version "3.1.0"
+  resolved "https://registry.npm.taobao.org/debug/download/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  integrity sha1-W7WgZyYotkFJVmuhaBnmFRjGcmE=
+  dependencies:
+    ms "2.0.0"
 
 decamelize@^1.2.0:
   version "1.2.0"
@@ -3593,17 +3600,15 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-follow-redirects@1.5.10:
-  version "1.5.10"
-  resolved "https://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.5.10.tgz?cache=0&sync_timestamp=1592518278637&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ffollow-redirects%2Fdownload%2Ffollow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
-  integrity sha1-e3qfmuov3/NnhqlP9kPtB/T/Xio=
-  dependencies:
-    debug "=3.1.0"
-
 follow-redirects@^1.0.0:
   version "1.12.1"
   resolved "https://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.12.1.tgz?cache=0&sync_timestamp=1592518278637&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ffollow-redirects%2Fdownload%2Ffollow-redirects-1.12.1.tgz#de54a6205311b93d60398ebc01cf7015682312b6"
   integrity sha1-3lSmIFMRuT1gOY68Ac9wFWgjErY=
+
+follow-redirects@^1.10.0, follow-redirects@^1.14.0:
+  version "1.14.7"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.7.tgz#2004c02eb9436eee9a21446a6477debf17e81685"
+  integrity sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -4365,11 +4370,6 @@ is-buffer@^1.1.5:
   version "1.1.6"
   resolved "https://registry.npm.taobao.org/is-buffer/download/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
   integrity sha1-76ouqdqg16suoTqXsritUf776L4=
-
-is-buffer@^2.0.2:
-  version "2.0.4"
-  resolved "https://registry.npm.taobao.org/is-buffer/download/is-buffer-2.0.4.tgz#3e572f23c8411a5cfd9557c849e3665e0b290623"
-  integrity sha1-PlcvI8hBGlz9lVfISeNmXgspBiM=
 
 is-callable@^1.1.4, is-callable@^1.2.0:
   version "1.2.0"
@@ -7948,7 +7948,7 @@ vuepress@^1.5.2:
     opencollective-postinstall "^2.0.2"
     update-notifier "^4.0.0"
 
-watchpack@1.6.1, watchpack@^1.6.1:
+watchpack@^1.6.1:
   version "1.6.1"
   resolved "https://registry.npm.taobao.org/watchpack/download/watchpack-1.6.1.tgz#280da0a8718592174010c078c7585a74cd8cd0e2"
   integrity sha1-KA2gqHGFkhdAEMB4x1hadM2M0OI=
