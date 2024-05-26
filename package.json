@@ -26,7 +26,7 @@
     "vuepress": "^1.5.2",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-code-copy": "^1.0.6",
-    "vuepress-plugin-code-switcher": "^1.0.3",
+    "vuepress-plugin-code-switcher": "^2.0.0",
     "vuepress-plugin-named-chunks": "^1.1.3",
     "vuepress-plugin-reading-progress": "^1.0.10",
     "vuepress-plugin-seo": "^0.1.3",
