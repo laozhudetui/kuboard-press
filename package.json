@@ -4,7 +4,7 @@
     "docs:build": "vuepress build ."
   },
   "dependencies": {
-    "@vssue/api-github-v4": "^1.4.0",
+    "@vssue/api-github-v4": "^1.4.7",
     "@vssue/vuepress-plugin-vssue": "^1.4.6",
     "@vuepress/plugin-active-header-links": "^1.5.2",
     "@vuepress/plugin-back-to-top": "^1.5.2",
